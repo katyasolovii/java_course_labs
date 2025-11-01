@@ -41,7 +41,6 @@ public class Toy implements Serializable {
         }
     }
 
-    // ---------- Зчитування списку іграшок із файлу ----------
     public static List<Toy> read(String inp) {
         List<Toy> lst = new ArrayList<>();
         try {
