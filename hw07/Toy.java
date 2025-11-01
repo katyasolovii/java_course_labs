@@ -26,7 +26,6 @@ public class Toy implements Serializable {
         return name + " (" + price + " грн, " + minAge + "-" + maxAge + " р.)";
     }
 
-
     public static void write(String out, List<Toy> lst) {
         try {
             var f = new ObjectOutputStream(
